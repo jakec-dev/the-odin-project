@@ -1,0 +1,19 @@
+p {
+    background-color: pink;
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#first-div {
+    color: blue;
+    font-size: 36px;
+}
+
+.third-paragraph {
+    font-size: 24px;
+}
+
+#second-div {
+    background-color: lightgreen;
+    font-size: 24px;
+    font-weight: bold;
+}
