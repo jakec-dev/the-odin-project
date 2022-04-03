@@ -1,0 +1,181 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#fold, footer {
+    background-color: #1F2937;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav p {
+    color: #F9FAF8;
+    font-size: 24px;
+    flex: 1;
+    font-weight: 700;
+}
+
+nav ul {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    list-style: none;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+h1 {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+    margin: 0;
+}
+
+h2 {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+}
+
+footer p {
+    text-align: center;
+    padding: 32px;
+}
+
+button {
+    padding: 8px 32px;
+    border: 0;
+    border-radius: 8px;
+    font-weight: 700;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 96px 0;
+}
+
+.subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.subtext--dark {
+    color: #1F2937;
+    font-size: 18px;
+}
+
+.call-to-action {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 8px;
+}
+
+.card-image {
+    height: 160px;
+    width: 160px;
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+}
+
+#cta-heading {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+}
+
+#cta-description {
+    margin: 0;
+    font-size: 18px;
+}
+
+#fold-content {
+    display: flex;
+    gap: 72px;
+    padding: 96px 0 128px 0;
+}
+
+#hero-image {
+    background-color: #6D747D;
+    text-align: center;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+#cards {
+    text-align: center;
+    padding: 24px 0 128px 0;
+}
+
+#cards-container {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+    margin-top: 48px;
+}
+
+#cards-container figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    width: 172px;
+    gap: 8px;
+}
+
+#quote {
+    background-color: #E5E7EB;
+    padding: 128px 0 96px 0;
+}
+
+#quote .container {
+    max-width: 800px;
+}
+
+#quote em {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+}
+
+#quote-author {
+    text-align: right;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+#cta-paper {
+    display: flex;
+    padding: 48px 128px;
+    justify-content: space-between;
+    align-items: centereeeeeeee;
+}
+
+#subtitle {
+    margin-top: 0;
+}
+
+footer .subtext {
+    margin: 0;
+}
+
+#call-to-action button {
+    background-color: transparent;
+    border: 2px solid #F9FAF8;
+    color: #F9FAF8;
+    padding: 8px 32px;
+    height: fit-content;
+}
